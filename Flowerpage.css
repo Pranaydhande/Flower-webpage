@@ -1,18 +1,12 @@
 
 .class1{
      border: 1px;
-     /*nav ul li a:hover;*/
-         /*color: #999;*/
-        
-       /* background-color:rosybrown;*/
-        /*display: flex;*/
-        /*padding-left: 80px;*/
-        /*color: black;*/
-        /*display: flex;
-        flex-direction: row;*/
-       /* position:absolute;
-        top: 8px;
-        right: 10px*/
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+       /* position:fixed; */
+        /* top: 8px;
+        right: 10px*/ 
 
      }
          
@@ -62,7 +56,16 @@
              background-repeat: no-repeat;
              background-size: cover;*/
              background-color: rgb(186, 167, 167);
-             padding: 15px;
+             height: 270px;
+             /* padding: 15px; */
+             
+
+         }
+         .info-block{
+            display: flex;
+             flex-direction: row;
+             justify-content: space-around;
+
          }
            
          h4{
@@ -79,12 +82,12 @@
         /* padding: 10px 15px;
             margin: 10px 0;*/
             text-align: center;
-            height: 150px;
+            height: 160px;
             width: 300px;
-            padding: 15px;
-            position:relative;
+             /* padding-bottom: 5px; */
+           /* position:relative;
         nav-down: 573px;
-        left: 100px
+        left: 100px */
     
          }
          .item5{
@@ -93,13 +96,13 @@
             text-align: center;
             /*padding: 10px 15px;*/
            /* margin: 10px 0;*/
-            height: 150px;
+            height: 160px;
             width: 300px;
-            padding: 15px;
+            /* padding: 15px; */
            /* padding top:25px; */
-            position:absolute;
+            /* position:absolute;
              top: 575px;
-            right: 600px
+            right: 600px */
        
          }
         .item6{
@@ -108,45 +111,60 @@
        /* padding: 10px 15px;*/
         /*margin: 10px 0;*/
         text-align: center;
-        height: 150px;
+        height: 160px;
         width: 300px;
-        padding: 15px;
+        /* 00 */
       /*  padding-bottom: 10px;*/
       /*  text-align: center;*/
-        position:absolute;
+        /* position:absolute;
         top: 575px;
-        right: 100px
+        right: 100px */
     }
     .class2{
         border:1px solid black;
         color: blanchedalmond;
-        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSK2KLMYERkw5JNjMq2PYkVA6GAcZk9jJ_1vA&s);width: 563px;height: 405px;
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSK2KLMYERkw5JNjMq2PYkVA6GAcZk9jJ_1vA&s);width: 500px;height: 350px;
         background-repeat: no-repeat;
         background-size: cover;
-        position:absolute;
+        /* position:absolute;
         top: 787px;
-       right: 10px
+       right: 10px */
        
     }
     .class3{
         border:1px solid black;
-        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAabHpGGvn0nNFQuYiE9TdInCycgKra7PCvg&s);width: 1000px;height: 405px;
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAabHpGGvn0nNFQuYiE9TdInCycgKra7PCvg&s);width: 1350px;height: 350px;
         background-repeat: no-repeat;
         background-size: cover;
+    }
+   
+    .img{
+        display: flex;
+        flex-direction: row;
+
     }
     .item7{
     font-size: large;
     /*font-weight: bolder;*/
     text-align: center;
-    padding-top: 150px;
+    padding-top: 100px;
     }
     .class4{
         text-align:center;
         
        /* font-weight: bolder;*/
         font-size: large;
-        
-        
+      
+          
+    }
+    .description-box{
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 1500px;
+        height: 70px;
+
     }
 
          .item8>details > summary
@@ -158,9 +176,9 @@
             box-shadow: 1px 1px 2px #bbbbbb;
             cursor: pointer;
             text-align: center;
-             position:absolute;
+             /* position:absolute;
             top: 1300px;
-           right: 670px; 
+           right: 670px;  */
          }      
           details > p {
             background-color: #eeeeee;
@@ -169,10 +187,10 @@
             width: 200px;
             box-shadow: 1px 1px 2px #bbbbbb;
             text-align: center;
-             position:absolute;
+             /* position:absolute;
             top: 1330px;
            right: 670px;
-         
+          */
           }        
         
         .item9>details > summary{
@@ -183,9 +201,9 @@
             box-shadow: 1px 1px 2px #bbbbbb;
             cursor: pointer; 
             text-align: center;
-            position:absolute;
+            /* position:absolute;
             top: 1300px;
-           right: 950px; 
+           right: 950px;  */
           }
           details > p {
             background-color: #eeeeee;
@@ -194,44 +212,57 @@
             width: 200px;
             box-shadow: 1px 1px 2px #bbbbbb;
             text-align: center;
-            position:absolute;
+            /* position:absolute;
             top: 1330px;
-           right: 950px;
+           right: 950px; */
         }
         .item10>details > summary{
             padding: 4px;
-            width: 280px;
+            width: 200px;
             background-color: #eeeeee;
             border: none;
             box-shadow: 1px 1px 2px #bbbbbb;
             cursor: pointer; 
-            text-align: center;
-            position:absolute;
+            /* text-align: center; */
+            /* position:absolute;
             top: 1300px;
-           right: 350px; 
+           right: 350px;  */
           }
           details > p {
             background-color: #eeeeee;
-            padding: 4px;
+            /* padding: 4px; */
             margin: 0;
             width: 200px;
             box-shadow: 1px 1px 2px #bbbbbb;
             text-align: center;
-            position:absolute;
+            /* position:absolute;
             top: 1250px;
-           right: 60px;
+           right: 60px; */
         }
         .class5{
             text-align: center;
               /* position: sticky;  
               bottom:50px; */
         }
+        .class6{
+            display:flex ;
+            justify-content: space-between;
+            width: 1400px;
+            /* flex-direction: row; */
+            /* text-align: center; */
+            /* position: fixed; */
+        }
         .class6 >.item10{
-            position:absolute;
+            /* position:absolute;
             top: 1600px;
            right:50px;
            padding-right: 10px;
-           font-weight: bolder;
+           font-weight: bolder; */
            /* position: fixed; */
+           display: flex;
+        justify-content: space-between;
 
         }
+        /* .footer{
+            position: fixed;
+ }  */
